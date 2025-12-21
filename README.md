@@ -31,4 +31,4 @@
 ## Developer
 * **Name:** chalachew belay
 * **University:** Wolaita Sodo University (WSU)
-* **GitHub:** [https://github.com/chacha-it-deve-2018]
+* **GitHub:** [https://github.com/chacha-it-deve-2018
