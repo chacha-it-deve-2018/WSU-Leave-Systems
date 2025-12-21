@@ -20,6 +20,6 @@
 4. በብሮውዘርዎ `localhost/WSU-Leave-Systems` ብለው ይክፈቱ።
 
 ## Developer
-* **Name:** [ያንተ ስም እዚህ ጋር ይግባ]
+* **Name:** [chalachew belay]
 * **University:** Wolaita Sodo University (WSU)
 * **GitHub:** [https://github.com/chacha-it-deve-2018]
