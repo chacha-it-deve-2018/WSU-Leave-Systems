@@ -18,8 +18,12 @@
 2. በ PHPMyAdmin ውስጥ `wsu_leave_db` የሚባል ዳታቤዝ ይፍጠሩ።
 3. በፕሮጀክቱ ውስጥ ያለውን የ `.sql` ፋይል ወደ ዳታቤዙ **Import** ያድርጉ።
 4. በብሮውዘርዎ `localhost/WSU-Leave-Systems` ብለው ይክፈቱ።
-
+##አሁን ፕሮጀክትህ እንዲህ መታየት አለበት፡
+1.PHP ፋይሎች: ለሲስተሙ ሥራ።
+2.CSS ፋይሎች: ለውበቱ።
+3.database.sql: ሌላ ሰው ሲስተሙን በቀላሉ እንዲጭነው።
+4.README.md: ስለ ፕሮጀክቱ ማብራሪያ።
 ## Developer
-* **Name:** [chalachew belay]
+* **Name:** chalachew belay
 * **University:** Wolaita Sodo University (WSU)
 * **GitHub:** [https://github.com/chacha-it-deve-2018]
