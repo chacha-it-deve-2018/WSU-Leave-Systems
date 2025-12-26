@@ -1,33 +1,73 @@
-# WSU Leave Management System
-ይህ ሲስተም ለወላይታ ሶዶ ዩኒቨርሲቲ ሰራተኞች የፈቃድ መጠየቂያ እና ማጽደቂያ ሂደትን ለማቀላጠፍ በ PHP እና MySQL የተሰራ የድረ-ገጽ መተግበሪያ ነው።
+# 🏥 WSU Employee Leave Management System
+> **A Web-based platform for Wolaita Sodo University to streamline staff leave requests and approvals.**
 
-## ዋና ዋና ተግባራት (Features)
-* **የሰራተኛ መግቢያ (Employee Login):** ሰራተኞች የፈቃድ ጥያቄ ማቅረብ ይችላሉ።
-* **የአስተዳዳሪ ክፍል (Admin Panel):** ፈቃዶችን ማጽደቅ ወይም ውድቅ ማድረግ።
-* **የፈቃድ ታሪክ (Leave History):** ያለፉ ፈቃዶችን መመልከት።
+---
 
-## የተጠቀሙ ቴክኖሎጂዎች (Technologies Used)
-* **Backend:** PHP
-* **Database:** MySQL
-* **Frontend:** HTML5, CSS3, JavaScript
-* **Server:** XAMPP (Apache)
+## 🔗 Live Demo
+You can explore the live version of the system here:
+👉 **[WSU Leave System Live](http://ethio-online-market.infinityfreeapp.com/login.php)**
 
-## እንዴት መጫን ይቻላል? (How to Install)
-1. ፋይሎቹን አውርደው በ XAMPP `htdocs` ፎልደር ውስጥ ያስቀምጡ።
-2. በ PHPMyAdmin ውስጥ `wsu_leave_db` የሚባል ዳታቤዝ ይፍጠሩ።
-3. በፕሮጀክቱ ውስጥ ያለውን የ `.sql` ፋይል ወደ ዳታቤዙ **Import** ያድርጉ።
-4. በብሮውዘርዎ `localhost/WSU-Leave-Systems` ብለው ይክፈቱ።
+---
 
+## 📌 Overview
+This system is designed to digitize and simplify the manual leave process at **Wolaita Sodo University (WSU)**. It allows employees to request leave online, while administrators can track, approve, or reject requests efficiently.
 
-##አሁን ፕሮጀክትህ እንዲህ መታየት አለበት፡
-
-1.PHP ፋይሎች: ለሲስተሙ ሥራ።
-2.CSS ፋይሎች: ለውበቱ።
-3.database.sql: ሌላ ሰው ሲስተሙን በቀላሉ እንዲጭነው።
-4.README.md: ስለ ፕሮጀክቱ ማብራሪያ።
+## ✨ Key Features
+* 🔐 **Secure Authentication:** Role-based login for Employees and Administrators.
+* 📝 **Leave Application:** Employees can submit various leave types (Annual, Sick, Maternity, etc.).
+* 📊 **Admin Dashboard:** Real-time management of pending requests.
+* 🕒 **Leave History:** Users can track the status and history of their past requests.
+* 📱 **Responsive Design:** Optimized for both Desktop and Mobile users.
 
 
-## Developer
-* **Name:** chalachew belay
-* **University:** Wolaita Sodo University (WSU)
-* **GitHub:** [https://github.com/chacha-it-deve-2018
+
+## 🛠️ Technologies Used
+| Component | Technology |
+| :--- | :--- |
+| **Backend** | PHP 8.x |
+| **Database** | MySQL |
+| **Frontend** | HTML5, CSS3 (Bootstrap/Custom), JavaScript |
+| **Server** | XAMPP / InfinityFree |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* [XAMPP](https://www.apachefriends.org/index.html) installed for local development.
+* Basic knowledge of PHP and MySQL.
+
+### Local Installation Steps
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/chacha-it-deve-2018/WSU-Leave-Systems.git](https://github.com/chacha-it-deve-2018/WSU-Leave-Systems.git)
+    ```
+2.  **Move to Web Directory:**
+    Copy the project folder to your XAMPP `htdocs` directory.
+3.  **Database Setup:**
+    * Open **PHPMyAdmin**.
+    * Create a new database named `wsu_leave_db`.
+    * Import the provided `database.sql` file.
+4.  **Configuration:**
+    * Update `db_config.php` with your database credentials.
+5.  **Run:**
+    * Start Apache & MySQL and visit `http://localhost/WSU-Leave-Systems`.
+
+---
+
+## 📁 Project Structure
+```text
+├── assets/             # CSS, Images, and JS files
+├── includes/           # Header, Footer, and DB connection
+├── admin/              # Admin panel pages
+├── user/               # Employee dashboard pages
+├── database.sql        # Database schema for import
+└── index.php           # Landing and Login page
+------
+
+👨‍💻 Developer
+Chalachew Belay 🎓 Wolaita Sodo University (WSU)
+
+🌐 GitHub: @chacha-it-deve-2018
+
+💻 Project Link: WSU Leave Systems
